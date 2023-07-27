@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 
 function getRandomCourse() {
-  const courseArray = ['Angular', 'Bootstrap', 'Ccshrap', 'KompleWeb'];
+  const courseArray = ['Angular', 'Bootstrap', 'Ccsharp', 'KompleWeb'];
   return courseArray[Math.floor(Math.random() * courseArray.length)]
 }
 
