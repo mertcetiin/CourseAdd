@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div>
-      <button onClick={handleClick}>Course Add</button>
+      <button className='courseList' onClick={handleClick}>Course Add</button>
       {courses.map((course, id) => (
         <Course key={id} courseName={course} />
       ))}

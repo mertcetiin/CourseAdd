@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(240, 243, 245);
+}
+
+button {
+    margin-top: 20px;
+    width: 350px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: rgb(1, 15, 95);
+    color: white;
+}
+
+img {
+    height: 250px;
+    width: 350px;
+    margin-top: 30px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
